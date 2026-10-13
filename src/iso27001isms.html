@@ -2076,8 +2076,8 @@ function renderAbout(host) {
   host.innerHTML = `
   <div class="panel about-hero">
     <div class="avatar" aria-hidden="true">MN</div>
-    <div><h2>Marsellino Nasry</h2><div class="about-role">Offensive Security and ISO 27001 Specialist</div>
-      <p>An elite Red Team Operator and IT Auditor at BDO, I bring a potent combination of offensive security expertise and deep ISO 27001 compliance knowledge. My mission is to fortify organizations against modern cyber threats by identifying vulnerabilities, simulating real-world attacks, and ensuring robust adherence to international security standards. Recognized in the Top 1% on TryHackMe, my work safeguards critical infrastructures across the banking, petroleum, and corporate sectors.</p>
+    <div><h2>Marsellino Nasry</h2><div class="about-role">Senior IT Auditor | ISO/IEC 27001 ISMS Assurance | Offensive Security & Red Teaming  Copy title</div>
+      <p>Senior IT Auditor and Cybersecurity Specialist at BDO, combining IT audit and technology risk assurance expertise with hands-on offensive security capabilities. Specialized in IT General Controls (ITGC), ISO/IEC 27001:2022 ISMS assessments, cybersecurity risk management, penetration testing, and red team operations.  Recognized among the top 1% of TryHackMe users, with experience supporting security assessments across banking, petroleum, and enterprise environments. Focused on translating technical security findings into actionable, risk-based recommendations that strengthen governance, control effectiveness, and organizational resilience.</p>
       <div class="contact-grid">${contacts.map(([h, i, l]) => `<a class="btn" href="${h}" ${h.startsWith('http') ? 'target="_blank" rel="noopener"' : ''}><i class="${i}"></i>${l}</a>`).join('')}</div></div>
   </div>
   <section class="about-grid">
@@ -2870,7 +2870,7 @@ function buildReport() {
   let yy = H - 92;
   doc.setDrawColor(44, 60, 96); doc.line(20, yy - 9, W - 20, yy - 9);
   rows.forEach(([k, v]) => { doc.setFont('helvetica', 'normal'); doc.setFontSize(8.5); doc.setTextColor(140, 155, 185); doc.text(k, 20, yy); doc.setFontSize(10.5); doc.setTextColor(236, 240, 247); doc.text(pdfSafe(trunc(v, 75)), 62, yy); yy += 8.2; });
-  doc.setFontSize(8.5); doc.setTextColor(120, 135, 165); doc.text('Prepared by Marsellino Nasry, Offensive Security and ISO 27001 Specialist', 20, H - 16);
+  doc.setFontSize(8.5); doc.setTextColor(120, 135, 165); doc.text('Prepared by Marsellino Nasry, Senior IT Auditor | ISO/IEC 27001 ISMS Assurance | Offensive Security & Red Teaming  Copy title', 20, H - 16);
 
   /* Contents placeholder */
   doc.addPage();
