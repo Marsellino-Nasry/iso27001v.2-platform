@@ -2071,7 +2071,7 @@ function renderReports(host) {
 
 /* ===================== About ===================== */
 function renderAbout(host) {
-  const contacts = [['https://www.linkedin.com/in/marsellino-nasry/', 'fa-brands fa-linkedin', 'LinkedIn'], ['https://linktr.ee/Marsellino.Nasry', 'fa-solid fa-tree', 'Linktree'], ['https://marsellino-nasry.github.io', 'fa-solid fa-globe', 'Portfolio'], ['https://wa.me/201019392651', 'fa-brands fa-whatsapp', 'WhatsApp'], ['mailto:Marsellino.nasry@gmail.com', 'fa-solid fa-envelope', 'Personal email'], ['mailto:m.nasry@bdo.com.eg', 'fa-solid fa-briefcase', 'BDO email'], ['https://github.com/Marsellino-Nasry/iso27001-platform', 'fa-brands fa-github', 'Source on GitHub']];
+  const contacts = [['https://www.linkedin.com/in/marsellino-nasry/', 'fa-brands fa-linkedin', 'LinkedIn'], ['https://linktr.ee/Marsellino.Nasry', 'fa-solid fa-tree', 'Linktree'], ['https://marsellino-nasry.github.io', 'fa-solid fa-globe', 'Portfolio'], ['https://wa.me/201019392651', 'fa-brands fa-whatsapp', 'WhatsApp'], ['mailto:Marsellino.nasry@gmail.com', 'fa-solid fa-envelope', 'Personal email'], ['mailto:m.nasry@bdo.com.eg', 'fa-solid fa-briefcase', 'BDO email'], ['https://github.com/Marsellino-Nasry/iso27001v.2-platform', 'fa-brands fa-github', 'Source on GitHub']];
   const list = items => `<ul class="tick-list">${items.map(i => `<li><i class="fa-solid fa-check"></i><span>${esc(i)}</span></li>`).join('')}</ul>`;
   host.innerHTML = `
   <div class="panel about-hero">
