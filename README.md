@@ -1,5 +1,9 @@
 # ISMS Assurance Platform — ISO/IEC 27001:2022
 
+<p align="center">
+  <img src="ISMS.png" alt="ISMS Assurance Platform — ISO/IEC 27001:2022" width="100%">
+</p>
+
 **Author:** Marsellino Nasry  
 **Project type:** Browser-based ISMS audit, risk, and compliance support tool  
 **Status:** Independent project / professional portfolio
